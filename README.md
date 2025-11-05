@@ -31,6 +31,8 @@ Aplikasi ini dirancang dengan tampilan responsif yang bisa menyesuaikan ukuran l
 
 
 ---
+## Prototype
+https://www.figma.com/design/UkUI7iYnvys98s5yvNRPPv/Aplikasi-Kuis?node-id=0-1&t=WL6ihZQ0hsK7fGCx-1
 
 ## 📸 Screenshot 
 <img width="320" height="692" alt="Image" src="https://github.com/user-attachments/assets/b88df33f-ac29-4ccd-843a-181f3dc7d092" />
