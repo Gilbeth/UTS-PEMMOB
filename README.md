@@ -26,9 +26,9 @@ Aplikasi ini dirancang dengan tampilan responsif yang bisa menyesuaikan ukuran l
 ##  Credit / Sumber Aset
 - **Logo & Ilustrasi:** Dibuat menggunakan  <img width="4782" height="3587" alt="Image" src="https://github.com/user-attachments/assets/cf076308-2110-41fc-afdf-0e2eb5e4fecf" />
 
-- **Ikon:** [Material Icons](https://fonts.google.com/icons)  
+- **Ikon:** [Material Icons] (https://api.flutter.dev/flutter/material/Icons-class.html)
 - **Font:** [Poppins (Google Fonts)](https://fonts.google.com/specimen/Poppins)  
-- **Inspirasi desain:** Flutter UI examples di [Dribbble](https://dribbble.com)
+
 
 ---
 
