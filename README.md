@@ -35,7 +35,5 @@ Aplikasi ini dirancang dengan tampilan responsif yang bisa menyesuaikan ukuran l
 ## 📸 Screenshot 
 <img width="320" height="692" alt="Image" src="https://github.com/user-attachments/assets/b88df33f-ac29-4ccd-843a-181f3dc7d092" />
 <img width="317" height="694" alt="Image" src="https://github.com/user-attachments/assets/adbd5ec8-d98c-49dd-b6c6-07c204b69cd2" />
-<img width="314" height="693" alt="Image" src="https://github.com/user-attachments/assets/c32d45b0-b89b-4d28-951b-b845a177e1cf" />
-<img width="319" height="693" alt="Image" src="https://github.com/user-attachments/assets/bb5c3faa-291f-4c93-9190-6db451264c39" />
 <img width="316" height="694" alt="Image" src="https://github.com/user-attachments/assets/e116dcb3-b08e-4d10-84dc-fc234acc81ee" />
 <img width="323" height="694" alt="Image" src="https://github.com/user-attachments/assets/48f86dca-42ca-4681-9a62-51cd73ddffc9" />
