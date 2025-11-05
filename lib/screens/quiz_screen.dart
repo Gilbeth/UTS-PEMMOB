@@ -6,7 +6,7 @@ import 'result_screen.dart';
 
 class QuizScreen extends StatefulWidget {
   static const routeName = '/quiz';
-  const QuizScreen({Key? key}) : super(key: key);
+  const QuizScreen({super.key});
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();

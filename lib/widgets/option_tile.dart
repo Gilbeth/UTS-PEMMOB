@@ -7,16 +7,16 @@ class OptionTile extends StatelessWidget {
   final VoidCallback onTap;
 
   const OptionTile({
-    Key? key,
+    super.key,
     required this.text,
     required this.selected,
     required this.onTap,
     this.disabled = false,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
-    // responsive sizing
+    // Responsif: atur ukuran font berdasarkan lebar layar
     final width = MediaQuery.of(context).size.width;
     final fontSize = width > 600 ? 18.0 : 14.0;
 
@@ -24,40 +24,51 @@ class OptionTile extends StatelessWidget {
       onTap: disabled ? null : onTap,
       borderRadius: BorderRadius.circular(12),
       child: Container(
-        padding: EdgeInsets.symmetric(vertical: 14, horizontal: 12),
-        margin: EdgeInsets.symmetric(vertical: 6),
+        padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 12),
+        margin: const EdgeInsets.symmetric(vertical: 6),
         decoration: BoxDecoration(
-          color: selected ? Theme.of(context).primaryColor.withOpacity(0.12) : Colors.white,
+          color: selected
+              ? Theme.of(context).primaryColor.withValues(alpha: 0.12) // ✅ Ganti .withOpacity() → .withValues()
+              : Colors.white,
           border: Border.all(
-            color: selected ? Theme.of(context).primaryColor : Colors.grey.shade300,
+            color: selected
+                ? Theme.of(context).primaryColor
+                : Colors.grey.shade300,
           ),
           borderRadius: BorderRadius.circular(12),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.03),
+              color: Colors.black.withValues(alpha: 0.03), // ✅ Ganti juga di sini
               blurRadius: 6,
-              offset: Offset(0, 2),
-            )
+              offset: const Offset(0, 2),
+            ),
           ],
         ),
         child: Row(
           children: [
             CircleAvatar(
               radius: fontSize,
-              backgroundColor: selected ? Theme.of(context).primaryColor : Colors.grey.shade200,
+              backgroundColor: selected
+                  ? Theme.of(context).primaryColor
+                  : Colors.grey.shade200,
               child: Text(
-                text.substring(0, 1).toUpperCase(),
+                
+                "O".toUpperCase(),
                 style: TextStyle(
                   fontSize: fontSize - 2,
                   color: selected ? Colors.white : Colors.black87,
                 ),
               ),
             ),
-            SizedBox(width: 12),
+            const SizedBox(width: 12),
             Expanded(
               child: Text(
                 text,
-                style: TextStyle(fontSize: fontSize, height: 1.22, fontFamily: 'PoppinsCustom'),
+                style: TextStyle(
+                  fontSize: fontSize,
+                  height: 1.22,
+                  fontFamily: 'PoppinsCustom',
+                ),
               ),
             ),
           ],
