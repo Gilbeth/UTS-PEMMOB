@@ -24,7 +24,7 @@ Aplikasi ini dirancang dengan tampilan responsif yang bisa menyesuaikan ukuran l
 ---
 
 ##  Credit / Sumber Aset
-- **Logo & Ilustrasi:** Dibuat menggunakan  <img width="4782" height="3587" alt="logo" src="https://github.com/user-attachments/assets/631862c9-fe0c-4a8e-9d02-4cb0c8154c56" />
+- **Logo & Ilustrasi:** Dibuat menggunakan  <img width="4782" height="3587" alt="Image" src="https://github.com/user-attachments/assets/cf076308-2110-41fc-afdf-0e2eb5e4fecf" />
 
 - **Ikon:** [Material Icons](https://fonts.google.com/icons)  
 - **Font:** [Poppins (Google Fonts)](https://fonts.google.com/specimen/Poppins)  
